@@ -167,12 +167,22 @@ Muitas idéias vem de idéias anteriores. Os anos sessenta, particularmente no �
 	<h2><a name="p2">Introduction</a></h2>
 
 	  <p>
-	  Estou escrevendo essa introdução em um avião, a 35000 pés de altura. No meu colo está um notebook de 5 libras, modelo 1992, chamado " Interim Dynabook" &mdash; que até o final do ano vai ser vendido por menos de 700 d[olares. Ele tem uma tela plana, de alta resolução, com considerável capacidade de armazenamento e processamento além de seu melhor software ser orientado à objeto. Ele tem rede nativa e opções para modo wireless. O sistema roda por cima de SmallTalk e é um dos principais sistemas que eu usok ( para trabalhar com crianças.
-De certo modo isso é mais do que um Dynabook (quantitativamente), mas às vezes, não tanto assim (qualitativamente). De qualquer jeito, é o que estava posto como idéia nos anos sessenta. 
-		<p>Sera parte do grande intuito da ARPA, seguida pela Xerox PARC, que eu chamei de <i>computação pessoal</i>. Tinha tanta gente envolvida em cada estágio da pesquisa nas comunidades (de desenvolvimento) que a devida divisão dos créditos é extremamente difícil. Ao contrário disso, como disse Bob Barton ao citar Goethe, deveríamos "compartilhar a alegria da descoberta sem tentativas vãs de clamar autoria".</p>
-		<p>Tentarei mostrar de onde vieram a maioria das influencias e como elas foram transformadas nno campo magnético formado pela metáfora da nova computação pessoal. Foram as atitudes, assim como as grandes idéias de pioneiros, essenciais na cração do SmallTalk. Muitas dessas pessoas eu admiro até hoje, como Ivan Sutherland, Marvin Minsky, Seymour Papert, Gordon Moore, Bob Barton, Dave Evans, Butler Lampson, Jerome Bruner, e outros&mdash;, parecem ter tido um senso de que suas criações esplêndidas não estariam nem perto dos níveis que poderiam alcançar. Pequenas mentes tentam formar religiões, as mentes brilhantes preferem caminhos melhores até o topo da montanha.
+	  Estou escrevendo essa introdução em um avião, a 35000 pés de altura. No meu colo está um notebook de 5 libras, modelo 1992, chamado " Interim Dynabook" &mdash; que até o final do ano vai ser vendido por menos de 700 d[olares. Ele tem uma tela plana, de alta resolução, com considerável capacidade de armazenamento e processamento além de seu melhor software ser orientado à objeto. Ele vem 
+	  advanced networking built-in and there are already options for wireless networking.
+	  
+		that the accurate allocation of credit for ideas is intractably difficult.  Instead, as Bob Barton
+		liked to quote Goethe, we should "share in the excitement of discovery without vain attempts
+		to claim priority."
 		</p>
-		 Where Newton said he saw further by standing on the 
+		<p>
+		I will try to show where most of the influences came from and how they were transformed 
+		in the magnetic field formed by the new personal computing metaphor.  It was the <i>attitudes</i> as 
+		well as the great ideas of the pioneers that helped Smalltalk get invented.  Many of the people I
+		admired most at this time&mdash;such as Ivan Sutherland, Marvin Minsky, Seymour Papert, Gordon
+		Moore, Bob Barton, Dave Evans, Butler Lampson, Jerome Bruner, and others&mdash;seemed to have
+		a splendid sense that their creations, though wonderful by relative standards, were not near to
+		the absolute thresholds that had to be crossed.  Small minds try to form religions, the great ones
+		just want better routes up the mountain.  Where Newton said he saw further by standing on the 
 		shoulders of giants, computer scientists all too often stand on each other's toes.  Myopia is
 		still a problem where there are giants' shoulders to stand on&mdash;"outsight" is better than
 		insight&mdash;but it can be minimized by using glasses whose lenses are highly sensitive to 
