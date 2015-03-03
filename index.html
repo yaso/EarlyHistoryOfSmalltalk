@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>The Early History Of Smalltalk</title>
+  <title>A história do Smalltalk</title>
   <style type="text/css">
     body {
     width:700px;
@@ -57,8 +57,8 @@
   </style>
 </head>
 <body>
-	<p align="center"><a href="SmalltalkHistoryHOPL.pdf">original pdf</a> / <a href="https://github.com/worrydream/EarlyHistoryOfSmalltalk">make corrections</a></p>
-	<h1 align="center">The Early History Of Smalltalk</h1>
+	<p align="center"><a href="SmalltalkHistoryHOPL.pdf">pdf original em inglês</a> / <a href="https://github.com/worrydream/EarlyHistoryOfSmalltalk">corrija aqui.</a></p>
+	<h1 align="center">A história do Smalltalk</h1>
 	<p align="center">
 	<i>Alan C. Kay</i><br>
 	<i>Apple Computer</i><br>
@@ -66,39 +66,31 @@
 	</p>
 
         <p class="copyright">
-	  Permission to copy without fee all or part of this material is
-	  granted provided that the copies are not made or distributed for
-	  direct commercial advantage, the ACM copyright notice and the
-	  title of the publication and its date appear, and  notice is given
-	  that copying is by permission of the Association for Computing
-	  Machinery.  To copy otherwise, or to republish, requires a fee
-	  and/or specific permission.<br>
+	  Você tem permissão para copiar sem pagamento ou royaltie parte ou todo esse material, desde que não seja feita a cópia de material com objetivos comerciais. Em caso de cópia ou publicação com objetivos comerciais, será necessária a permissão específica ou pagamento pelo uso<b
+	<br>
 	  HOPL-II/4/93/MA, USA
 	  &copy; 1993 ACM 0-89791-571-2/93/0004/0069...$1.50
         </p>
 
-	<h2 align="center">Abstract</h2>
+	<h2 align="center">Resumo</h2>
 
-		<p>
-Muitas idéias vem de idéias anteriores. Os anos sessenta, particularmente no âmbito da comunidade ARPA, deu origem à uma série de noções sobre "simbiose humano-computador" através de computadores compartilhados ao mesmo tempo, telas gráficas e dispositivos de seleção. Linguagens de programação avançadas eram inventadas para simular sistemas complextos como refinarias de óleo e comportamento semi-inteligente. O paradigma incipiente a ser seguido mudou a computação pessoal moderna com a sobreposição de interfaces de janelas e o design orientado à objeto mostraram que as idéias dos anos sessenta poderiam ser mais do que "coisas velhas melhoradas".</p>
-<p>Mais do que coisas melhoradas, se tratava de fazer mainframe computing; permitir que usuários finais evoquem funcionalidades, fazer estruturas de dados mais abstratas ao invés da promessa do crescimento exponencial em computação/$/volume demandado que os anos sessenta consideraram como uma coisa "<i>quase<i> nova" e descobrir o que realmente poderiam ser "coisas novas"  na atualidade. Por exemplo, alguém poderia fazer computação com um "Dynabook" de uma maneira que nã seria possível em um mainframe compartilhado; milhões de usuários em potencial significava que a interface deveria se tornar um ambiente de aprendizado na linha Montessouri e Bruner, e a necessidade de escopo maior, redução da complexidade e a alfabetização do usuário final acabaria implicando em uma necessidade de maior liberdade em favor de um esquema mais biológico, onde células universair protegidas poderiam interagir atravẽs de mensagens que deveriam imitar o comportamento desejado.</p>
-<p>O início do SmallTalk foi a primeira realização completa desses pontos de vista novos, como precedido por invenções em hardware, linguagem e interfaces de usuáruo. Smalltalk se tornou o exemplo da nova computação, em parte porque era necessário um salto qualitativo na crença em estruturas &mdash um paradigma novo de Kuhnian no mesmo espírito da invenção da prensa &mdash ademais, acabou consquistando posições altas, o que praticamente forçou que novos estilos fossem inventados. </p>
+	<p> Muitas idéias vem de idéias anteriores. Os anos sessenta, particularmente no âmbito da comunidade ARPA, deu origem à uma série de noções sobre "simbiose humano-computador" através de computadores compartilhados ao mesmo tempo, telas gráficas e dispositivos de seleção. Linguagens de programação avançadas eram inventadas para simular sistemas complextos como refinarias de óleo e comportamento semi-inteligente. O paradigma incipiente a ser seguido mudou a computação pessoal moderna com a sobreposição de interfaces de janelas e o design orientado à objeto mostraram que as idéias dos anos sessenta poderiam ser mais do que "coisas velhas melhoradas".</p>
+<p>Mais do que "coisas melhoradas", se tratava de fazer mainframe computing; permitir que usuários finais evoquem funcionalidades, fazer estruturas de dados mais abstratas, no lugar da promessa do crescimento exponencial em computação/$/volume demandado que os anos sessenta consideraram como uma coisa "<i>quase<i> nova" e descobrir o que realmente poderiam ser "coisas novas" na atualidade. Por exemplo, alguém poderia fazer computação com um "Dynabook" de uma maneira que não seria possível em um mainframe compartilhado; milhões de usuários em potencial significava que a interface deveria se tornar um ambiente de aprendizado na linha Montessouri e Bruner, e a necessidade de escopo maior, redução da complexidade e a alfabetização do usuário final acabaria implicando em uma necessidade de maior liberdade em favor de um esquema mais biológico, onde células universais protegidas poderiam interagir através de mensagens que deveriam imitar o comportamento desejado.</p>
+<p>O SmallTalk incipiente foi a primeira realização completa desses pontos de vista novos, precedido por invenções em hardware, linguagem e interfaces de usuário. O Smalltalk se tornou o exemplo da nova computação, em parte porque era necessário um salto qualitativo na crença em estruturas -???- um paradigma novo de Kuhnian no mesmo espírito da invenção da prensa &mdash ademais, acabou consquistando posições altas, o que praticamente forçou que novos estilos fossem inventados.</p>
 	
 	<h2 align="center">Sumário</h2>
 
           <ul>
             <li>Introdução <a href="#p2">2</a></li>
 
-	    <li>I. 1960-66&mdash; OOP inicial em outras idéias formativas dos anos sessenta
-              <a href="#p4">4</a>
+	    <li>I. 1960-66&mdash; OOP inicial e outras idéias formativas dos anos sessenta<a href="#p4">4</a>
               <ul>
 		<li>B220 File System</li>
 		<li>SketchPad &amp; Simula</li>
               </ul>
             </li>
 
-	    <li>II 1967-69&mdash;The FLEX Machine, an OOP-based personal computer
-              <a href="#p6">6</a>
+	    <li>II 1967-69&mdash;A máquina FLEX, um computador pessoal baseado em OOP<a href="#p6">6</a>
               <ul>
                 <li>Doug Englebart and NLS</li>
 		<li>Plasma Panel, GRAIL, LOGO, Dynabook</li>
@@ -117,25 +109,24 @@ Muitas idéias vem de idéias anteriores. Os anos sessenta, particularmente no �
               </ul>
             </li>
 
-	    <li>IV. 1972-76&mdash;Xerox PARC: The first real Smalltalk (-72)
-              <a href="#p17">17</a>
+	    <li>IV. 1972-76&mdash;Xerox PARC: O primeiro SmallTalk real (-72)<a href="#p17">17</a>
               <ul>
-	        <li>The two bets: birth of Smalltalk and Interim Dynabook</li>
-	        <li>Smalltalk-72 Principles</li>
-	        <li>The Smalltalk User Interface</li>
-	        <li>Development of the Smalltalk Applications &amp; System</li>
-	        <li>Evolution of Smalltalk: ST-74, ooze storage management</li>
-	        <li><a href="#smalltalkAndChildren">Smalltalk and Children</a>
+	        <li>As duas apostas: o nascimento do SmallTalk e do Interim Dynabook</li>
+	        <li>Princípios do Smalltalk-72</li>
+	        <li>A interface de usuário do SmallTalk</li>
+	        <li>O desenvolvimento do sistema de aplicações com Smalltalk</li>
+	        <li>A Evolução do SmallTalk: ST-74, ooze gerenciamento de storage</li>
+	        <li><a href="#smalltalkAndChildren">Smalltalk e crianças</a>
               </ul>
             </li>
 
 	    <li>V. 1976-80&mdash;O primeiro SmallTalk moderno (-76) <a href="#p29">29</a>
               <ul>
 		<li>"Let's burn our disk packs"</li>
-		<li>The Notetaker</li>
+		<li>O Notetaker</li>
 		<li>Smalltalk-76</li>
-		<li>Inheritance</li>
-		<li>More Troubles With Xerox</li>
+		<li>Herança</li>
+		<li>Mais problemas na Xerox</li>
 		<li>ThingLab</li>
 		<li>Apple Demo</li>
               </ul>
@@ -143,7 +134,7 @@ Muitas idéias vem de idéias anteriores. Os anos sessenta, particularmente no �
 
 	    <li>VI. 1980-83&mdash;The release version of Smalltalk (-80) <a href="#p38">38</a>
               <ul>
-	        <li>Transformations</li>
+	        <li>Transformações</li>
 	        <li><a href="#coda">Coda</a></li>
               </ul>
             </li>
@@ -166,24 +157,13 @@ Muitas idéias vem de idéias anteriores. Os anos sessenta, particularmente no �
 
 	<h2><a name="p2">Introduction</a></h2>
 
-	  <p>
-	  Estou escrevendo essa introdução em um avião, a 35000 pés de altura. No meu colo está um notebook de 5 libras, modelo 1992, chamado " Interim Dynabook" &mdash; que até o final do ano vai ser vendido por menos de 700 d[olares. Ele tem uma tela plana, de alta resolução, com considerável capacidade de armazenamento e processamento além de seu melhor software ser orientado à objeto. Ele tem rede nativa e opções para modo wireless. O sistema roda por cima de SmallTalk e é um dos principais sistemas que eu usok ( para trabalhar com crianças.
-De certo modo isso é mais do que um Dynabook (quantitativamente), mas às vezes, não tanto assim (qualitativamente). De qualquer jeito, é o que estava posto como idéia nos anos sessenta. 
-		<p>Sera parte do grande intuito da ARPA, seguida pela Xerox PARC, que eu chamei de <i>computação pessoal</i>. Tinha tanta gente envolvida em cada estágio da pesquisa nas comunidades (de desenvolvimento) que a devida divisão dos créditos é extremamente difícil. Ao contrário disso, como disse Bob Barton ao citar Goethe, deveríamos "compartilhar a alegria da descoberta sem tentativas vãs de clamar autoria".</p>
-		<p>Tentarei mostrar de onde vieram a maioria das influencias e como elas foram transformadas nno campo magnético formado pela metáfora da nova computação pessoal. Foram as atitudes, assim como as grandes idéias de pioneiros, essenciais na cração do SmallTalk. Muitas dessas pessoas eu admiro até hoje, como Ivan Sutherland, Marvin Minsky, Seymour Papert, Gordon Moore, Bob Barton, Dave Evans, Butler Lampson, Jerome Bruner, e outros&mdash;, parecem ter tido um senso de que suas criações esplêndidas não estariam nem perto dos níveis que poderiam alcançar. Pequenas mentes tentam formar religiões, as mentes brilhantes preferem caminhos melhores até o topo da montanha.
-		</p>
-		 Where Newton said he saw further by standing on the 
-		shoulders of giants, computer scientists all too often stand on each other's toes.  Myopia is
-		still a problem where there are giants' shoulders to stand on&mdash;"outsight" is better than
-		insight&mdash;but it can be minimized by using glasses whose lenses are highly sensitive to 
-		esthetics and criticism.
-		</p>
+	<p>Estou escrevendo essa introdução em um avião, a 35000 pés de altura. No meu colo está um notebook de 5 libras, modelo 1992, chamado "Interim Dynabook", que até o final do ano vai ser vendido por menos de 700 dólares. Ele tem a tela plana, de alta resolução, com considerável capacidade de armazenamento e processamento além de seu melhor software ser orientado a objetos. Ele tem rede nativa e opções para modo wireless. O sistema que roda por cima com SmallTalk é um dos principais sistemas que eu uso (para trabalhar com crianças.) De certo modo isso é mais do que um Dynabook (quantitativamente), mas também não tanto assim (qualitativamente). De qualquer jeito, é o que estava posto como idéia nos anos sessenta.</p> 
+	<p>Era parte do grande intuito da ARPA, seguida pela Xerox PARC, que eu chamei de <i>computação pessoal</i>. Tinha tanta gente envolvida em cada estágio da pesquisa nas comunidades (de desenvolvimento) que a devida divisão dos créditos é extremamente difícil. Ao contrário disso, como disse Bob Barton ao citar Goethe, deveríamos "compartilhar a alegria da descoberta sem tentativas vãs de clamar autoria".</p>
+	<p>Tentarei mostrar de onde vieram a maioria das influências e como elas foram transformadas no campo magnético formado pela metáfora da nova computação pessoal. Foram as atitudes, assim como as grandes idéias de pioneiros, essenciais na cração do SmallTalk. Muitas dessas pessoas eu admiro até hoje, como Ivan Sutherland, Marvin Minsky, Seymour Papert, Gordon Moore, Bob Barton, Dave Evans, Butler Lampson, Jerome Bruner, e outros&mdash;, parecem ter tido um senso de que suas criações esplêndidas não estariam nem perto dos níveis que poderiam alcançar. Mentes pequenas tentam formar religiões, mentes grandes só querem uma rota melhor até a montanha. Onde Newton disse que viu mais longe foi de pé, sobre os ombros de gigantes. Cientistas da computação, muitas vezes preferem ficar sobre os pés uns dos outros. Miopia ainda é um problema onde há ombros de gigantes para se apoiar - "visto de fora" aunda é melhor do que uma visão interna - mais isso pode ser minimizado pelo uso de óculos cujas lentes são sensíveis à estética e criticas.</p>
+
+
 		<p>
-		Programming languages can be categorized in a number of ways: imperative, applicative, 
-		logic-based, problem-oriented, etc.  But they all seem to be either an "agglutination of features"
-		or a "crystallization of style."  COBOL, PL/1, Ada, etc., belong to the first kind; LISP, APL&mdash;
-		and Smalltalk&mdash;are the second kind.  It is probably not an accident that the agglutinative languages
-		all seem to have been instigated by committees, and the crystallization languages by a single person.
+		Linguagens de programação podem ser categorizadas de diversos modos: impetativas, aplicativas, baseadas em lógica, orientadas a problemas, etc. Mas todas elas são uma "aglutinação de features"  ou  "cristalização de um estilo". COBOL, PL/1, Ada, etc, pertencem ao primeiro tipo e SmallTalk, Lisp, APL&mdash são do segundo tipo. Provavelmente não é um acidente que as linguagens que são aglutinações tenham sido estudadas por comitês inteiro, enquanto as do segundo tipo tenham sido estudadas por uma única pessoa. 
 		</p>
 		<p>
 		Smalltalk's design&mdash;and existence&mdash;is due to the insight that everything we can describe can be
