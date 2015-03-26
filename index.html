@@ -160,34 +160,11 @@
 	<p>Estou escrevendo essa introdução em um avião, a 35000 pés de altura. No meu colo está um notebook de 5 libras, modelo 1992, chamado "Interim Dynabook", que até o final do ano vai ser vendido por menos de 700 dólares. Ele tem a tela plana, de alta resolução, com considerável capacidade de armazenamento e processamento além de seu melhor software ser orientado a objetos. Ele tem rede nativa e opções para modo wireless. O sistema que roda por cima com SmallTalk é um dos principais sistemas que eu uso (para trabalhar com crianças.) De certo modo isso é mais do que um Dynabook (quantitativamente), mas também não tanto assim (qualitativamente). De qualquer jeito, é o que estava posto como idéia nos anos sessenta.</p> 
 	<p>Era parte do grande intuito da ARPA, seguida pela Xerox PARC, que eu chamei de <i>computação pessoal</i>. Tinha tanta gente envolvida em cada estágio da pesquisa nas comunidades (de desenvolvimento) que a devida divisão dos créditos é extremamente difícil. Ao contrário disso, como disse Bob Barton ao citar Goethe, deveríamos "compartilhar a alegria da descoberta sem tentativas vãs de clamar autoria".</p>
 	<p>Tentarei mostrar de onde vieram a maioria das influências e como elas foram transformadas no campo magnético formado pela metáfora da nova computação pessoal. Foram as atitudes, assim como as grandes idéias de pioneiros, essenciais na cração do SmallTalk. Muitas dessas pessoas eu admiro até hoje, como Ivan Sutherland, Marvin Minsky, Seymour Papert, Gordon Moore, Bob Barton, Dave Evans, Butler Lampson, Jerome Bruner, e outros&mdash;, parecem ter tido um senso de que suas criações esplêndidas não estariam nem perto dos níveis que poderiam alcançar. Mentes pequenas tentam formar religiões, mentes grandes só querem uma rota melhor até a montanha. Onde Newton disse que viu mais longe foi de pé, sobre os ombros de gigantes. Cientistas da computação, muitas vezes preferem ficar sobre os pés uns dos outros. Miopia ainda é um problema onde há ombros de gigantes para se apoiar - "visto de fora" aunda é melhor do que uma visão interna - mais isso pode ser minimizado pelo uso de óculos cujas lentes são sensíveis à estética e criticas.</p>
+<p>Linguagens de programação podem ser categorizadas de diversos modos: imperativas, aplicativas, baseadas em lógica, orientadas a problemas, etc. Mas todas elas podem ser divididas em "aglutinação de features"  ou  "cristalização de um estilo". COBOL, PL/1, Ada, etc, pertencem ao primeiro tipo e SmallTalk, Lisp, APL&mdash são do segundo tipo. Provavelmente não é um acidente que as linguagens que são aglutinações de features tenham sido estudadas por comitês inteiros, enquanto as do segundo tipo tenham sido estudadas por uma única pessoa. </p>
 
-
-		<p>
-		Linguagens de programação podem ser categorizadas de diversos modos: impetativas, aplicativas, baseadas em lógica, orientadas a problemas, etc. Mas todas elas são uma "aglutinação de features"  ou  "cristalização de um estilo". COBOL, PL/1, Ada, etc, pertencem ao primeiro tipo e SmallTalk, Lisp, APL&mdash são do segundo tipo. Provavelmente não é um acidente que as linguagens que são aglutinações tenham sido estudadas por comitês inteiro, enquanto as do segundo tipo tenham sido estudadas por uma única pessoa. 
-		</p>
-		<p>
-		Smalltalk's design&mdash;and existence&mdash;is due to the insight that everything we can describe can be
-		represented by the recursive composition of a single kind of behavioral building block that hides its
-		combination of state and process inside itself and can be dealt with only through the exchange of
-		messages.  Philosophically, Smalltalk's objects have much in common with the monads of Leibniz and
-		the notions of 20th century physics and biology.  Its way of making objects is quite Platonic in that
-		some of them act as idealizations of concepts&mdash;<i>Ideas</i>&mdash;from which <i>manifestations</i> can be created.  That
-		the Ideas are themselves manifestations (of the Idea-Idea) and that the Idea-Idea is <i>a-kind-of</i>
-		Manifestation-Idea&mdash;which is a-kind-of itself, so that the system is completely self-describing&mdash;
-		would have been appreciated by Plato as an extremely practical joke [Plato].
-		</p>
-		<p>
-		In computer terms, Smalltalk is a recursion on the notion of computer itself.  Instead of dividing
-		"computer stuff" into things each less strong than the whole&mdash;like data structures, procedures, and
-		functions which are the usual paraphernalia of programming languages&mdash;each Smalltalk object is a
-		recursion on the entire possibilities of the computer.  Thus its semantics are a bit like having thousands
-		and thousands of computers all hooked together by a very fast network.  Questions of concrete representation
-		can thus be postponed almost indefinitely because we are mainly concerned that the computers
-		behave appropriately, and are interested in particular strategies only if the results are off or
-		come back too slowly.
-		</p>
-		<p>
-		Though it has noble ancestors indeed, Smalltalk's contribution is a new design paradigm&mdash;which I
+<p>O design do Smalltalk e sua existencia se deve à percepção de que tudo que nós descrevemos pode ser descrito pela composição recursiva de um único processo dentro dele mesmo e pode ser tratada apenas através da troca de mensagens. </p>
+		<p>Em termos de computação, Smalltalk é uma recursão da noção de computação por si própria. No lugar de dividir as "coisas de computador" em partes pequenas; como estruturas de dados, procedimentos e funções que são usualmente parafernália das linguagens de computação, cada objeto SmallTalk é uma recursão de todas as possibilidades de um computador. Consequentemente sua semântica é como se tivesse milhares e milhares de computadores, todos enganchados juntos por uma rede muito rápida. Questões de representação concreta podem ser postergadas quase que infinitamente porque estamos preocupados em fazer os computadores se comportarem apropriadamente, e estamos interessados em particupar em estratégias apenas se os resultados não existam ou se mostrem devagar.</p>
+		<p>Though it has noble ancestors indeed, Smalltalk's contribution is a new design paradigm&mdash;which I
 		called <i>object-oriented</i>&mdash;for attacking large problems of the professional programmer, and making
 		small ones possible for the novice user.  Object-oriented design is a successful attempt to qualitatively
 		improve the efficiency of modeling the ever more complex dynamic systems and user relationships
