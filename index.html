@@ -376,23 +376,22 @@ novos estilos fossem inventados.</p>
 		muitos sistemas subsequentes até que o uso forçado de
 COBOL acabou jogando-o para o esquecimento. </p>
 
-<!--traduzido até aqui-->
-<p>
-		The second barely-seeing of the idea came just a
-		little later when ATC decided to replace the 220 with
-		a B5000.  I didn't have the perspective to really
-		appreciate it at the time, but I did take note of its
-		segmented storage system, its efficiency of HLL
-		compilation and byte-coded execution, its automatic
-		mechanisms for subroutine calling and multiprocess
-		switching, its pure code for sharing, its protection
-		mechanisms, etc.  And, I saw that the access to its
-		Program Reference Table corresponded to the 220 file
-		system scheme of providing a procedural interface to a
-		module.  However, my big hit from this machine at this
-		time was not the OOP idea, but some insights into HLL
-		translation and evaluation.  [Barton, 1961]
-		[Burroughs, 1961] </p> <p> After the Air Force, I
+
+<p>A segunda vez que a idéia foi "quase vista" veio um pouco depois
+quando ATC decidiu substituir o 220 por um B5000. Eu não tinha a
+perspectiva para realmente gostar isso naquele tempo, mas eu anotei
+sobre o sistema de armazenamento segmentado, sobre a eficiência da
+execução na compilação byte-coded do HLL e os mecanismos automáticos
+que ele dispunha para chamar subrotinas e alternâncias entre
+multi=processos, o código puro para compartilhamento, os mecanismos de
+proteção, etc. Eu também vi que o acesso à sua tabela de Referências
+no Programa correspondia ao esquema do file system 220 de fornecer uma
+interface procedural para um módulo. No entanto, minha maior aposta
+com relação à essa máquina naquele tempo não era a idéia OOP, mas
+algumas percepções sobre a tradução e avaliação HLL. [Barton,
+1961][Burroughs, 1961] </p>
+
+<p> After the Air Force, I
 		worked my way through the rest of college by
 		programming mostly retrieval <img
 		src="Images/mooreslaw.png" alt="Moore's Law graph"
@@ -592,18 +591,7 @@ COBOL acabou jogando-o para o esquecimento. </p>
 		abstract holy grail of "augmentation."
 		</p>
 		<p>
-		One of the interesting features of NLS was that its user interface was parametric and could be 
-		supplied by the end user in the form of a "grammar of interaction" given in their compiler-compiler
-		TreeMeta.  This was similar to William Newman's early "Reaction Handler" [Newman 66] work in
-		specifying interfaces by having the end-user or developer construct through tablet and stylus an
-		iconic regular expression grammar with action procedures at the states (NLS allowed embeddings via
-		its context free rules).  This was attractive in many ways, particularly William's scheme, but to me
-		there was a monstrous bug in this approach.  Namely, these grammars forced the user to be in a 
-		system state which required getting out of before any new kind of interaction could be done.  In hierarchical
-		menus or "screens"  one would have to backtrack to a master state in order to go somewhere
-		else.  What seemed to be required were states in which there was a transition arrow to every other
-		state&mdash;not a fruitful concept in formal grammar theory.  In other words, a much "flatter" interface
-		seemed called for&mdash;but could such a thing be made interesting and rich enough to be useful?
+		One of the interesting features of NLS was that its user interface was parametric and could be supplied by the end user in the form of a "grammar of interaction" given in their compiler-compiler TreeMeta.  This was similar to William Newman's early "Reaction Handler" [Newman 66] work in specifying interfaces by having the end-user or developer construct through tablet and stylus an iconic regular expression grammar with action procedures at the states (NLS allowed embeddings via its context free rules).  This was attractive in many ways, particularly William's scheme, but to me there was a monstrous bug in this approach.  Namely, these grammars forced the user to be in a system state which required getting out of before any new kind of interaction could be done.  In hierarchical menus or "screens"  one would have to backtrack to a master state in order to go somewhere else.  What seemed to be required were states in which there was a transition arrow to every other state&mdash;not a fruitful concept in formal grammar theory.  In other words, a much "flatter" interface seemed called for&mdash;but could such a thing be made interesting and rich enough to be useful?
 		</p>
 		<p>
 		Again, the scope of the FLEX machine was too small for a miniNLS, and we were forced to find
